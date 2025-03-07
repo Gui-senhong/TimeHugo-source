@@ -1,0 +1,21 @@
+baseURL = 'https://timehugo.github.io/'
+languageCode = 'zh-cn'
+title = 'Time Hugo'
+theme = "hugo-theme-ladder"
+
+[params]
+  author = "Time Hugo"
+  avatarURL = "images/avatar.png"  # 头像存放于static/images/下:cite[1]:cite[5]
+  darkModeTheme = "auto"  # 自动切换夜间模式:cite[1]
+
+[markup.goldmark.renderer]
+  unsafe = true  # 允许渲染原始 HTML
+  
+[[menu.main]]
+  name = "文章"
+  url = "/blog/"
+  weight = 1
+[[menu.main]]
+  name = "归档"
+  url = "/archive/"
+  weight = 2
