@@ -140,3 +140,7 @@ languages:
 taxonomies:
   series: series
   tag: tags
+
+# 添加默认布局配置（根据主题文档调整）
+[params]
+defaultLayout = "post"  # 或主题支持的其他有效布局名称
