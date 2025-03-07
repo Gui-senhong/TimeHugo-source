@@ -11,6 +11,7 @@ theme = "hugo-theme-ladder"
 [markup.goldmark.renderer]
   unsafe = true  # 允许渲染原始 HTML
   
+
 [[menu.main]]
   name = "文章"
   url = "/blog/"
@@ -19,3 +20,13 @@ theme = "hugo-theme-ladder"
   name = "归档"
   url = "/archive/"
   weight = 2
+[[menu.main]]
+  name = "标签"
+  url = "/tags/"
+  weight = 3
+[[menu.main]]
+  name = "统计"
+  url = "/https://umami-ochre-nu.vercel.app/share/o3zAba1V/guangzhengli/"
+  weight = 4
+
+
